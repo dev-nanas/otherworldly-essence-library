@@ -1,14 +1,7 @@
 ;; otherworldly-essence-library
-;; <add a description here>
 
-;; constants
-;;
+;; Global registry counter for tracking total quantum units
+(define-data-var nexus-unit-registry-total uint u0)
 
-;; data maps and vars
-;;
-
-;; private functions
-;;
-
-;; public functions
-;;
+;; Principal authority designation for quantum nexus oversight
+(define-constant quantum-nexus-controller-authority tx-sender)
